@@ -2,7 +2,6 @@ return {
   -- Add fzf-lua as an alternative picker
   {
     "ibhagwan/fzf-lua",
-    name = "fzf-picker",
     cmd = "FzfLua",
     keys = {
       { "<leader>zf", "<cmd>FzfLua files<cr>", desc = "Find Files (fzf)" },
